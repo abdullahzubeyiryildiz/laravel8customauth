@@ -8,6 +8,8 @@ Laravel8 Custom Auth
 - [Pratik Yazılımcı](https://www.pratikyazilimci.com)
 
 
+-  copy .env.example save as .env
+-  composer install
 -  php artisan migrate --seed
 
 
