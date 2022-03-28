@@ -37,12 +37,7 @@
                                 @if ($errors->has('password_confirmation'))
                                 <span class="text-danger">{{ $errors->first('password_confirmation') }}</span>
                                 @endif
-                            </div>
-                            <div class="form-group mb-3">
-                                <div class="checkbox">
-                                    <label><input type="checkbox" name="remember"> Remember Me</label>
-                                </div>
-                            </div>
+                            </div> 
                             <div class="d-grid mx-auto">
                                 <button type="submit" class="btn btn-dark btn-block">Sign up</button>
                             </div>
